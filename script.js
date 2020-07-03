@@ -1,3 +1,5 @@
+// Code starts here
+
 const video = document.getElementById('video');
 const play = document.getElementById('play');
 const stop = document.getElementById('stop');
@@ -63,3 +65,5 @@ play.addEventListener('click', toggleVideoStatus);
 stop.addEventListener('click', stopVideo);
 
 progress.addEventListener('change', setVideoProgress);
+
+// Code ends here
